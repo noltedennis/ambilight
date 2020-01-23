@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/noltedennis/ambilight"
-	"github.com/noltedennis/ambilight/serverlib"
+	"github.com/noltedennis/ambilight/internal/serverlib"
 	"github.com/stianeikeland/go-rpio/v4"
 )
 
