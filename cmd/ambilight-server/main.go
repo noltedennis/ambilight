@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
-import "github.com/noltedennis/ambilight"
-import "github.com/noltedennis/ambilight/serverlib"
+import (
+	"fmt"
+
+	"github.com/noltedennis/ambilight"
+	"github.com/noltedennis/ambilight/serverlib"
+)
 
 func main() {
-  fmt.Println(ambilight.Config())
-  fmt.Println(serverlib.Hello())
+	fmt.Println(ambilight.Config())
+	fmt.Println(serverlib.Hello())
 }
